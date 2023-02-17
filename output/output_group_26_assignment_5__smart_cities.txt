@@ -1,0 +1,1390 @@
+starting!!
+build
+//////////////////////////////////////////
+C++ RECEIVES DATA
+epochs:10 i:1
+data to process:  fashionmnist
+number of clients:  20
+data size:  20000
+validation split: 0.60
+********************
+Preparing Dataset...
+epoch number is:0	Global accuracy is: 0
+//////////////////////////////////////////
+/home/Sondos/.local/lib/python3.8/site-packages/torchvision/datasets/mnist.py:75: UserWarning: train_data has been renamed data
+  warnings.warn("train_data has been renamed data")
+/home/Sondos/.local/lib/python3.8/site-packages/torchvision/datasets/mnist.py:65: UserWarning: train_labels has been renamed targets
+  warnings.warn("train_labels has been renamed targets")
+/home/Sondos/.local/lib/python3.8/site-packages/torchvision/datasets/mnist.py:80: UserWarning: test_data has been renamed data
+  warnings.warn("test_data has been renamed data")
+/home/Sondos/.local/lib/python3.8/site-packages/torchvision/datasets/mnist.py:70: UserWarning: test_labels has been renamed targets
+  warnings.warn("test_labels has been renamed targets")
+Creating Model...
+Training...
+client 1 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.7990847676992416 	 accuracy:0.7884615384615384
+client 1 training ends!!
+Validation Score client_1:  0.7083333333333334
+ 
+client 2 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.8374873995780945 	 accuracy:0.7307692307692307
+client 2 training ends!!
+Validation Score client_2:  0.6865
+ 
+client 3 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.8378622829914093 	 accuracy:0.7019230769230769
+client 3 training ends!!
+Validation Score client_3:  0.6996666666666667
+ 
+client 4 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 2.1639876663684845 	 accuracy:0.25961538461538464
+client 4 training ends!!
+Validation Score client_4:  0.06066666666666667
+ 
+client 5 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.7469328790903091 	 accuracy:0.7884615384615384
+client 5 training ends!!
+Validation Score client_5:  0.7388333333333333
+ 
+client 6 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.7798104137182236 	 accuracy:0.7403846153846154
+client 6 training ends!!
+Validation Score client_6:  0.7416666666666667
+ 
+client 7 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.7670850977301598 	 accuracy:0.75
+client 7 training ends!!
+Validation Score client_7:  0.7405
+ 
+client 8 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.7756200060248375 	 accuracy:0.7403846153846154
+client 8 training ends!!
+Validation Score client_8:  0.7385
+ 
+client 9 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.7637311071157455 	 accuracy:0.8269230769230769
+client 9 training ends!!
+Validation Score client_9:  0.7476666666666667
+ 
+client 10 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.7900599241256714 	 accuracy:0.7596153846153846
+client 10 training ends!!
+Validation Score client_10:  0.7461666666666666
+ 
+client 11 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.7473538592457771 	 accuracy:0.8076923076923077
+client 11 training ends!!
+Validation Score client_11:  0.7438333333333333
+ 
+client 12 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.748799279332161 	 accuracy:0.8173076923076923
+client 12 training ends!!
+Validation Score client_12:  0.7445
+ 
+client 13 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.7611574083566666 	 accuracy:0.75
+client 13 training ends!!
+Validation Score client_13:  0.7395
+ 
+client 14 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.7927415296435356 	 accuracy:0.7596153846153846
+client 14 training ends!!
+Validation Score client_14:  0.7415
+ 
+client 15 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.7425164431333542 	 accuracy:0.8365384615384616
+client 15 training ends!!
+Validation Score client_15:  0.7423333333333333
+ 
+client 16 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.7242007181048393 	 accuracy:0.8461538461538461
+client 16 training ends!!
+Validation Score client_16:  0.7523333333333333
+ 
+client 17 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.7670748680830002 	 accuracy:0.7403846153846154
+client 17 training ends!!
+Validation Score client_17:  0.7463333333333333
+ 
+client 18 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.7861629948019981 	 accuracy:0.7307692307692307
+client 18 training ends!!
+Validation Score client_18:  0.7408333333333333
+ 
+client 19 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.7843313813209534 	 accuracy:0.8269230769230769
+client 19 training ends!!
+Validation Score client_19:  0.7456666666666667
+ 
+client 20 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.7490172758698463 	 accuracy:0.75
+client 20 training ends!!
+Validation Score client_20:  0.742
+ 
+------------------------------------------------------------------
+[1.79908477 1.8374874  1.83786228 2.16398767 0.74693288 0.77981041
+ 0.7670851  0.77562001 0.76373111 0.79005992 0.74735386 0.74879928
+ 0.76115741 0.79274153 0.74251644 0.72420072 0.76707487 0.78616299
+ 0.78433138 0.74901728]
+------------------------------------------------------------------
+Aggregation and validation!!!
+ 
+{'client_1': 1, 'client_2': 1, 'client_3': 1, 'client_4': 2, 'client_5': 0, 'client_6': 0, 'client_7': 0, 'client_8': 0, 'client_9': 0, 'client_10': 0, 'client_11': 0, 'client_12': 0, 'client_13': 0, 'client_14': 0, 'client_15': 0, 'client_16': 0, 'client_17': 0, 'client_18': 0, 'client_19': 0, 'client_20': 0}
+--------------------------------------------------------------------
+Server validation Score: 0.743
+Model Downloading...
+epochs:10 i:2
+//////////////////////////////////////////
+C++ RECEIVES DATA
+epoch number is:1	Global accuracy is: 0.743
+//////////////////////////////////////////
+client 1 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.755142867565155 	 accuracy:0.8173076923076923
+client 1 training ends!!
+Validation Score client_1:  0.76
+ 
+client 2 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.7404093146324158 	 accuracy:0.7980769230769231
+client 2 training ends!!
+Validation Score client_2:  0.7608333333333334
+ 
+client 3 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.741258218884468 	 accuracy:0.7884615384615384
+client 3 training ends!!
+Validation Score client_3:  0.7558333333333334
+ 
+client 4 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 2.2307878732681274 	 accuracy:0.21153846153846154
+client 4 training ends!!
+Validation Score client_4:  0.31916666666666665
+ 
+client 5 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.4783393368124962 	 accuracy:0.8461538461538461
+client 5 training ends!!
+Validation Score client_5:  0.7818333333333334
+ 
+client 6 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.4923926666378975 	 accuracy:0.8269230769230769
+client 6 training ends!!
+Validation Score client_6:  0.7813333333333333
+ 
+client 7 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.48081049695611 	 accuracy:0.8365384615384616
+client 7 training ends!!
+Validation Score client_7:  0.7833333333333333
+ 
+client 8 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.5097760111093521 	 accuracy:0.8269230769230769
+client 8 training ends!!
+Validation Score client_8:  0.7841666666666667
+ 
+client 9 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.47502096742391586 	 accuracy:0.8942307692307693
+client 9 training ends!!
+Validation Score client_9:  0.7911666666666667
+ 
+client 10 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.5191690512001514 	 accuracy:0.8365384615384616
+client 10 training ends!!
+Validation Score client_10:  0.7858333333333334
+ 
+client 11 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.4622863829135895 	 accuracy:0.8846153846153846
+client 11 training ends!!
+Validation Score client_11:  0.7851666666666667
+ 
+client 12 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.47867247462272644 	 accuracy:0.875
+client 12 training ends!!
+Validation Score client_12:  0.7803333333333333
+ 
+client 13 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.4848093241453171 	 accuracy:0.8557692307692307
+client 13 training ends!!
+Validation Score client_13:  0.7825
+ 
+client 14 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.5218410976231098 	 accuracy:0.8269230769230769
+client 14 training ends!!
+Validation Score client_14:  0.7868333333333334
+ 
+client 15 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.44571277126669884 	 accuracy:0.875
+client 15 training ends!!
+Validation Score client_15:  0.7848333333333334
+ 
+client 16 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.46531305834650993 	 accuracy:0.8846153846153846
+client 16 training ends!!
+Validation Score client_16:  0.7943333333333333
+ 
+client 17 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.49686047434806824 	 accuracy:0.7980769230769231
+client 17 training ends!!
+Validation Score client_17:  0.7858333333333334
+ 
+client 18 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.49907899647951126 	 accuracy:0.8365384615384616
+client 18 training ends!!
+Validation Score client_18:  0.7821666666666667
+ 
+client 19 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.5011273100972176 	 accuracy:0.8942307692307693
+client 19 training ends!!
+Validation Score client_19:  0.7861666666666667
+ 
+client 20 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.48287758976221085 	 accuracy:0.7980769230769231
+client 20 training ends!!
+Validation Score client_20:  0.7805
+ 
+------------------------------------------------------------------
+[1.75514287 1.74040931 1.74125822 2.23078787 0.47833934 0.49239267
+ 0.4808105  0.50977601 0.47502097 0.51916905 0.46228638 0.47867247
+ 0.48480932 0.5218411  0.44571277 0.46531306 0.49686047 0.499079
+ 0.50112731 0.48287759]
+------------------------------------------------------------------
+Aggregation and validation!!!
+ 
+{'client_1': 1, 'client_2': 1, 'client_3': 1, 'client_4': 2, 'client_5': 0, 'client_6': 0, 'client_7': 0, 'client_8': 0, 'client_9': 0, 'client_10': 0, 'client_11': 0, 'client_12': 0, 'client_13': 0, 'client_14': 0, 'client_15': 0, 'client_16': 0, 'client_17': 0, 'client_18': 0, 'client_19': 0, 'client_20': 0}
+--------------------------------------------------------------------
+Server validation Score: 0.7881666666666667
+Model Downloading...
+//////////////////////////////////////////
+C++ RECEIVES DATA
+epoch number is:2	Global accuracy is: 0.788
+//////////////////////////////////////////
+epochs:10 i:3
+client 1 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.7758694514632225 	 accuracy:0.8269230769230769
+client 1 training ends!!
+Validation Score client_1:  0.794
+ 
+client 2 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.7318494468927383 	 accuracy:0.8076923076923077
+client 2 training ends!!
+Validation Score client_2:  0.7865
+ 
+client 3 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.7338924333453178 	 accuracy:0.7884615384615384
+client 3 training ends!!
+Validation Score client_3:  0.7838333333333334
+ 
+client 4 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 2.2454464733600616 	 accuracy:0.21153846153846154
+client 4 training ends!!
+Validation Score client_4:  0.26116666666666666
+ 
+client 5 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.37590646743774414 	 accuracy:0.9134615384615384
+client 5 training ends!!
+Validation Score client_5:  0.8066666666666666
+ 
+client 6 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.39419305697083473 	 accuracy:0.875
+client 6 training ends!!
+Validation Score client_6:  0.809
+ 
+client 7 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.3857920728623867 	 accuracy:0.8653846153846154
+client 7 training ends!!
+Validation Score client_7:  0.8063333333333333
+ 
+client 8 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.41068238765001297 	 accuracy:0.8461538461538461
+client 8 training ends!!
+Validation Score client_8:  0.8076666666666666
+ 
+client 9 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.3725258521735668 	 accuracy:0.9519230769230769
+client 9 training ends!!
+Validation Score client_9:  0.8113333333333334
+ 
+client 10 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.4206510968506336 	 accuracy:0.8653846153846154
+client 10 training ends!!
+Validation Score client_10:  0.8145
+ 
+client 11 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.3664555996656418 	 accuracy:0.9423076923076923
+client 11 training ends!!
+Validation Score client_11:  0.808
+ 
+client 12 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.3831935040652752 	 accuracy:0.8942307692307693
+client 12 training ends!!
+Validation Score client_12:  0.8061666666666667
+ 
+client 13 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.3828119821846485 	 accuracy:0.8942307692307693
+client 13 training ends!!
+Validation Score client_13:  0.805
+ 
+client 14 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.4194687604904175 	 accuracy:0.8557692307692307
+client 14 training ends!!
+Validation Score client_14:  0.8123333333333334
+ 
+client 15 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.3565465919673443 	 accuracy:0.8942307692307693
+client 15 training ends!!
+Validation Score client_15:  0.8063333333333333
+ 
+client 16 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.3670915886759758 	 accuracy:0.9038461538461539
+client 16 training ends!!
+Validation Score client_16:  0.8176666666666667
+ 
+client 17 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.40147490054368973 	 accuracy:0.8269230769230769
+client 17 training ends!!
+Validation Score client_17:  0.8096666666666666
+ 
+client 18 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.4010440334677696 	 accuracy:0.8846153846153846
+client 18 training ends!!
+Validation Score client_18:  0.8061666666666667
+ 
+client 19 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.40355241298675537 	 accuracy:0.9134615384615384
+client 19 training ends!!
+Validation Score client_19:  0.8065
+ 
+client 20 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.3912131264805794 	 accuracy:0.8365384615384616
+client 20 training ends!!
+Validation Score client_20:  0.8078333333333333
+ 
+------------------------------------------------------------------
+[1.77586945 1.73184945 1.73389243 2.24544647 0.37590647 0.39419306
+ 0.38579207 0.41068239 0.37252585 0.4206511  0.3664556  0.3831935
+ 0.38281198 0.41946876 0.35654659 0.36709159 0.4014749  0.40104403
+ 0.40355241 0.39121313]
+------------------------------------------------------------------
+Aggregation and validation!!!
+ 
+{'client_1': 1, 'client_2': 1, 'client_3': 1, 'client_4': 2, 'client_5': 0, 'client_6': 0, 'client_7': 0, 'client_8': 0, 'client_9': 0, 'client_10': 0, 'client_11': 0, 'client_12': 0, 'client_13': 0, 'client_14': 0, 'client_15': 0, 'client_16': 0, 'client_17': 0, 'client_18': 0, 'client_19': 0, 'client_20': 0}
+--------------------------------------------------------------------
+Server validation Score: 0.8141666666666667
+Model Downloading...
+//////////////////////////////////////////
+C++ RECEIVES DATA
+epoch number is:3	Global accuracy is: 0.814
+//////////////////////////////////////////
+epochs:10 i:4
+client 1 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.7637752667069435 	 accuracy:0.8365384615384616
+client 1 training ends!!
+Validation Score client_1:  0.8115
+ 
+client 2 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.737222544848919 	 accuracy:0.8365384615384616
+client 2 training ends!!
+Validation Score client_2:  0.792
+ 
+client 3 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.7305040284991264 	 accuracy:0.8557692307692307
+client 3 training ends!!
+Validation Score client_3:  0.8041666666666667
+ 
+client 4 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 2.2556822896003723 	 accuracy:0.20192307692307693
+client 4 training ends!!
+Validation Score client_4:  0.3305
+ 
+client 5 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.32582801952958107 	 accuracy:0.9326923076923077
+client 5 training ends!!
+Validation Score client_5:  0.824
+ 
+client 6 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.34495897963643074 	 accuracy:0.8942307692307693
+client 6 training ends!!
+Validation Score client_6:  0.8241666666666667
+ 
+client 7 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.33785178512334824 	 accuracy:0.8846153846153846
+client 7 training ends!!
+Validation Score client_7:  0.8211666666666667
+ 
+client 8 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.35874684154987335 	 accuracy:0.8653846153846154
+client 8 training ends!!
+Validation Score client_8:  0.8226666666666667
+ 
+client 9 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.319640826433897 	 accuracy:0.9615384615384616
+client 9 training ends!!
+Validation Score client_9:  0.8241666666666667
+ 
+client 10 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.3660092353820801 	 accuracy:0.8846153846153846
+client 10 training ends!!
+Validation Score client_10:  0.8256666666666667
+ 
+client 11 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.3168259523808956 	 accuracy:0.9615384615384616
+client 11 training ends!!
+Validation Score client_11:  0.8241666666666667
+ 
+client 12 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.3349681980907917 	 accuracy:0.9038461538461539
+client 12 training ends!!
+Validation Score client_12:  0.8218333333333333
+ 
+client 13 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.3325106240808964 	 accuracy:0.9038461538461539
+client 13 training ends!!
+Validation Score client_13:  0.8215
+ 
+client 14 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.3666641302406788 	 accuracy:0.8942307692307693
+client 14 training ends!!
+Validation Score client_14:  0.8256666666666667
+ 
+client 15 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.31390320509672165 	 accuracy:0.8942307692307693
+client 15 training ends!!
+Validation Score client_15:  0.8196666666666667
+ 
+client 16 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.3164790943264961 	 accuracy:0.9134615384615384
+client 16 training ends!!
+Validation Score client_16:  0.831
+ 
+client 17 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.3514343164861202 	 accuracy:0.8365384615384616
+client 17 training ends!!
+Validation Score client_17:  0.822
+ 
+client 18 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.3485163804143667 	 accuracy:0.8942307692307693
+client 18 training ends!!
+Validation Score client_18:  0.8223333333333334
+ 
+client 19 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.35440369322896004 	 accuracy:0.9230769230769231
+client 19 training ends!!
+Validation Score client_19:  0.8196666666666667
+ 
+client 20 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.34603316336870193 	 accuracy:0.8461538461538461
+client 20 training ends!!
+Validation Score client_20:  0.8205
+ 
+------------------------------------------------------------------
+[1.76377527 1.73722254 1.73050403 2.25568229 0.32582802 0.34495898
+ 0.33785179 0.35874684 0.31964083 0.36600924 0.31682595 0.3349682
+ 0.33251062 0.36666413 0.31390321 0.31647909 0.35143432 0.34851638
+ 0.35440369 0.34603316]
+------------------------------------------------------------------
+Aggregation and validation!!!
+ 
+{'client_1': 1, 'client_2': 1, 'client_3': 1, 'client_4': 2, 'client_5': 0, 'client_6': 0, 'client_7': 0, 'client_8': 0, 'client_9': 0, 'client_10': 0, 'client_11': 0, 'client_12': 0, 'client_13': 0, 'client_14': 0, 'client_15': 0, 'client_16': 0, 'client_17': 0, 'client_18': 0, 'client_19': 0, 'client_20': 0}
+--------------------------------------------------------------------
+Server validation Score: 0.8301666666666667
+Model Downloading...
+//////////////////////////////////////////
+C++ RECEIVES DATA
+epoch number is:4	Global accuracy is: 0.83
+//////////////////////////////////////////
+epochs:10 i:5
+client 1 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.7555671855807304 	 accuracy:0.8173076923076923
+client 1 training ends!!
+Validation Score client_1:  0.8075
+ 
+client 2 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.7283379212021828 	 accuracy:0.8653846153846154
+client 2 training ends!!
+Validation Score client_2:  0.8081666666666667
+ 
+client 3 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.7356750816106796 	 accuracy:0.875
+client 3 training ends!!
+Validation Score client_3:  0.812
+ 
+client 4 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 2.268685221672058 	 accuracy:0.16346153846153846
+client 4 training ends!!
+Validation Score client_4:  0.31433333333333335
+ 
+client 5 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.28569043427705765 	 accuracy:0.9519230769230769
+client 5 training ends!!
+Validation Score client_5:  0.832
+ 
+client 6 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.3041531331837177 	 accuracy:0.9230769230769231
+client 6 training ends!!
+Validation Score client_6:  0.8315
+ 
+client 7 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.29986291378736496 	 accuracy:0.9038461538461539
+client 7 training ends!!
+Validation Score client_7:  0.834
+ 
+client 8 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.3162589445710182 	 accuracy:0.8846153846153846
+client 8 training ends!!
+Validation Score client_8:  0.8331666666666667
+ 
+client 9 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.27731006778776646 	 accuracy:0.9711538461538461
+client 9 training ends!!
+Validation Score client_9:  0.8346666666666667
+ 
+client 10 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.32161543518304825 	 accuracy:0.9134615384615384
+client 10 training ends!!
+Validation Score client_10:  0.8365
+ 
+client 11 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.2764938808977604 	 accuracy:0.9615384615384616
+client 11 training ends!!
+Validation Score client_11:  0.8358333333333333
+ 
+client 12 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.29711031913757324 	 accuracy:0.9134615384615384
+client 12 training ends!!
+Validation Score client_12:  0.8313333333333334
+ 
+client 13 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.2928577922284603 	 accuracy:0.9230769230769231
+client 13 training ends!!
+Validation Score client_13:  0.834
+ 
+client 14 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.32382331788539886 	 accuracy:0.9038461538461539
+client 14 training ends!!
+Validation Score client_14:  0.8378333333333333
+ 
+client 15 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.27739251405000687 	 accuracy:0.9134615384615384
+client 15 training ends!!
+Validation Score client_15:  0.8323333333333334
+ 
+client 16 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.27508706599473953 	 accuracy:0.9423076923076923
+client 16 training ends!!
+Validation Score client_16:  0.8398333333333333
+ 
+client 17 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.3110421821475029 	 accuracy:0.8846153846153846
+client 17 training ends!!
+Validation Score client_17:  0.8326666666666667
+ 
+client 18 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.30487255938351154 	 accuracy:0.9134615384615384
+client 18 training ends!!
+Validation Score client_18:  0.8311666666666667
+ 
+client 19 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.3160104379057884 	 accuracy:0.9326923076923077
+client 19 training ends!!
+Validation Score client_19:  0.8348333333333333
+ 
+client 20 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.3097381107509136 	 accuracy:0.8653846153846154
+client 20 training ends!!
+Validation Score client_20:  0.8326666666666667
+ 
+------------------------------------------------------------------
+[1.75556719 1.72833792 1.73567508 2.26868522 0.28569043 0.30415313
+ 0.29986291 0.31625894 0.27731007 0.32161544 0.27649388 0.29711032
+ 0.29285779 0.32382332 0.27739251 0.27508707 0.31104218 0.30487256
+ 0.31601044 0.30973811]
+------------------------------------------------------------------
+Aggregation and validation!!!
+ 
+{'client_1': 1, 'client_2': 1, 'client_3': 1, 'client_4': 2, 'client_5': 0, 'client_6': 0, 'client_7': 0, 'client_8': 0, 'client_9': 0, 'client_10': 0, 'client_11': 0, 'client_12': 0, 'client_13': 0, 'client_14': 0, 'client_15': 0, 'client_16': 0, 'client_17': 0, 'client_18': 0, 'client_19': 0, 'client_20': 0}
+--------------------------------------------------------------------
+Server validation Score: 0.8426666666666667
+Model Downloading...
+epochs:10 i:6
+//////////////////////////////////////////
+C++ RECEIVES DATA
+epoch number is:5	Global accuracy is: 0.843
+//////////////////////////////////////////
+client 1 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.7550134509801865 	 accuracy:0.8461538461538461
+client 1 training ends!!
+Validation Score client_1:  0.8196666666666667
+ 
+client 2 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.7026186808943748 	 accuracy:0.8846153846153846
+client 2 training ends!!
+Validation Score client_2:  0.814
+ 
+client 3 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.7560009732842445 	 accuracy:0.875
+client 3 training ends!!
+Validation Score client_3:  0.8188333333333333
+ 
+client 4 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 2.2719969749450684 	 accuracy:0.25961538461538464
+client 4 training ends!!
+Validation Score client_4:  0.30933333333333335
+ 
+client 5 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.26003886200487614 	 accuracy:0.9615384615384616
+client 5 training ends!!
+Validation Score client_5:  0.8408333333333333
+ 
+client 6 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.2776358425617218 	 accuracy:0.9230769230769231
+client 6 training ends!!
+Validation Score client_6:  0.8408333333333333
+ 
+client 7 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.2748928386718035 	 accuracy:0.9134615384615384
+client 7 training ends!!
+Validation Score client_7:  0.8383333333333334
+ 
+client 8 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.28742364421486855 	 accuracy:0.8942307692307693
+client 8 training ends!!
+Validation Score client_8:  0.8395
+ 
+client 9 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.25049078837037086 	 accuracy:0.9711538461538461
+client 9 training ends!!
+Validation Score client_9:  0.8423333333333334
+ 
+client 10 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.2911143433302641 	 accuracy:0.9326923076923077
+client 10 training ends!!
+Validation Score client_10:  0.8418333333333333
+ 
+client 11 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.24942529201507568 	 accuracy:0.9807692307692307
+client 11 training ends!!
+Validation Score client_11:  0.8438333333333333
+ 
+client 12 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.2718598712235689 	 accuracy:0.9326923076923077
+client 12 training ends!!
+Validation Score client_12:  0.841
+ 
+client 13 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.2680997159332037 	 accuracy:0.9230769230769231
+client 13 training ends!!
+Validation Score client_13:  0.8391666666666666
+ 
+client 14 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.2956110294908285 	 accuracy:0.9326923076923077
+client 14 training ends!!
+Validation Score client_14:  0.8426666666666667
+ 
+client 15 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.25322393141686916 	 accuracy:0.9134615384615384
+client 15 training ends!!
+Validation Score client_15:  0.8408333333333333
+ 
+client 16 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.24830010533332825 	 accuracy:0.9423076923076923
+client 16 training ends!!
+Validation Score client_16:  0.8446666666666667
+ 
+client 17 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.28402305394411087 	 accuracy:0.8846153846153846
+client 17 training ends!!
+Validation Score client_17:  0.8408333333333333
+ 
+client 18 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.2768823988735676 	 accuracy:0.9230769230769231
+client 18 training ends!!
+Validation Score client_18:  0.8401666666666666
+ 
+client 19 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.2920751664787531 	 accuracy:0.9423076923076923
+client 19 training ends!!
+Validation Score client_19:  0.8436666666666667
+ 
+client 20 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.2851236257702112 	 accuracy:0.8846153846153846
+client 20 training ends!!
+Validation Score client_20:  0.8395
+ 
+------------------------------------------------------------------
+[1.75501345 1.70261868 1.75600097 2.27199697 0.26003886 0.27763584
+ 0.27489284 0.28742364 0.25049079 0.29111434 0.24942529 0.27185987
+ 0.26809972 0.29561103 0.25322393 0.24830011 0.28402305 0.2768824
+ 0.29207517 0.28512363]
+------------------------------------------------------------------
+Aggregation and validation!!!
+ 
+{'client_1': 1, 'client_2': 1, 'client_3': 1, 'client_4': 2, 'client_5': 0, 'client_6': 0, 'client_7': 0, 'client_8': 0, 'client_9': 0, 'client_10': 0, 'client_11': 0, 'client_12': 0, 'client_13': 0, 'client_14': 0, 'client_15': 0, 'client_16': 0, 'client_17': 0, 'client_18': 0, 'client_19': 0, 'client_20': 0}
+--------------------------------------------------------------------
+Server validation Score: 0.8478333333333333
+Model Downloading...
+//////////////////////////////////////////
+C++ RECEIVES DATA
+epoch number is:6	Global accuracy is: 0.848
+//////////////////////////////////////////
+epochs:10 i:7
+client 1 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.7357681319117546 	 accuracy:0.8557692307692307
+client 1 training ends!!
+Validation Score client_1:  0.8235
+ 
+client 2 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.7353875786066055 	 accuracy:0.8942307692307693
+client 2 training ends!!
+Validation Score client_2:  0.8175
+ 
+client 3 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.749033123254776 	 accuracy:0.875
+client 3 training ends!!
+Validation Score client_3:  0.819
+ 
+client 4 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 2.280521661043167 	 accuracy:0.0673076923076923
+client 4 training ends!!
+Validation Score client_4:  0.311
+ 
+client 5 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.23742353543639183 	 accuracy:0.9711538461538461
+client 5 training ends!!
+Validation Score client_5:  0.8455
+ 
+client 6 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.2540138028562069 	 accuracy:0.9230769230769231
+client 6 training ends!!
+Validation Score client_6:  0.8483333333333334
+ 
+client 7 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.2532471586018801 	 accuracy:0.9230769230769231
+client 7 training ends!!
+Validation Score client_7:  0.8456666666666667
+ 
+client 8 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.26252499781548977 	 accuracy:0.8942307692307693
+client 8 training ends!!
+Validation Score client_8:  0.8445
+ 
+client 9 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.2271331399679184 	 accuracy:0.9711538461538461
+client 9 training ends!!
+Validation Score client_9:  0.847
+ 
+client 10 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.2638905458152294 	 accuracy:0.9326923076923077
+client 10 training ends!!
+Validation Score client_10:  0.8463333333333334
+ 
+client 11 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.2260480672121048 	 accuracy:0.9807692307692307
+client 11 training ends!!
+Validation Score client_11:  0.85
+ 
+client 12 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.24982156790792942 	 accuracy:0.9326923076923077
+client 12 training ends!!
+Validation Score client_12:  0.8451666666666666
+ 
+client 13 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.24681267887353897 	 accuracy:0.9326923076923077
+client 13 training ends!!
+Validation Score client_13:  0.8438333333333333
+ 
+client 14 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.27070872858166695 	 accuracy:0.9326923076923077
+client 14 training ends!!
+Validation Score client_14:  0.849
+ 
+client 15 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.2314059268683195 	 accuracy:0.9326923076923077
+client 15 training ends!!
+Validation Score client_15:  0.847
+ 
+client 16 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.22556964121758938 	 accuracy:0.9615384615384616
+client 16 training ends!!
+Validation Score client_16:  0.8503333333333334
+ 
+client 17 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.25946808233857155 	 accuracy:0.9038461538461539
+client 17 training ends!!
+Validation Score client_17:  0.846
+ 
+client 18 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.252420861274004 	 accuracy:0.9230769230769231
+client 18 training ends!!
+Validation Score client_18:  0.8471666666666666
+ 
+client 19 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.27105702832341194 	 accuracy:0.9423076923076923
+client 19 training ends!!
+Validation Score client_19:  0.8486666666666667
+ 
+client 20 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.26313114911317825 	 accuracy:0.9038461538461539
+client 20 training ends!!
+Validation Score client_20:  0.847
+ 
+------------------------------------------------------------------
+[1.73576813 1.73538758 1.74903312 2.28052166 0.23742354 0.2540138
+ 0.25324716 0.262525   0.22713314 0.26389055 0.22604807 0.24982157
+ 0.24681268 0.27070873 0.23140593 0.22556964 0.25946808 0.25242086
+ 0.27105703 0.26313115]
+------------------------------------------------------------------
+Aggregation and validation!!!
+ 
+{'client_1': 1, 'client_2': 1, 'client_3': 1, 'client_4': 2, 'client_5': 0, 'client_6': 0, 'client_7': 0, 'client_8': 0, 'client_9': 0, 'client_10': 0, 'client_11': 0, 'client_12': 0, 'client_13': 0, 'client_14': 0, 'client_15': 0, 'client_16': 0, 'client_17': 0, 'client_18': 0, 'client_19': 0, 'client_20': 0}
+--------------------------------------------------------------------
+Server validation Score: 0.8541666666666666
+Model Downloading...
+//////////////////////////////////////////
+C++ RECEIVES DATA
+epoch number is:7	Global accuracy is: 0.854
+//////////////////////////////////////////
+epochs:10 i:8
+client 1 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.7732338160276413 	 accuracy:0.8461538461538461
+client 1 training ends!!
+Validation Score client_1:  0.8241666666666667
+ 
+client 2 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.7470361292362213 	 accuracy:0.9038461538461539
+client 2 training ends!!
+Validation Score client_2:  0.8091666666666667
+ 
+client 3 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.7421702444553375 	 accuracy:0.8557692307692307
+client 3 training ends!!
+Validation Score client_3:  0.8198333333333333
+ 
+client 4 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 2.284983217716217 	 accuracy:0.3269230769230769
+client 4 training ends!!
+Validation Score client_4:  0.29983333333333334
+ 
+client 5 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.21763968840241432 	 accuracy:0.9711538461538461
+client 5 training ends!!
+Validation Score client_5:  0.8516666666666667
+ 
+client 6 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.23383849300444126 	 accuracy:0.9326923076923077
+client 6 training ends!!
+Validation Score client_6:  0.8516666666666667
+ 
+client 7 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.23325900547206402 	 accuracy:0.9423076923076923
+client 7 training ends!!
+Validation Score client_7:  0.853
+ 
+client 8 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.24129164591431618 	 accuracy:0.8942307692307693
+client 8 training ends!!
+Validation Score client_8:  0.8508333333333333
+ 
+client 9 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.20682859048247337 	 accuracy:0.9711538461538461
+client 9 training ends!!
+Validation Score client_9:  0.8505
+ 
+client 10 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.24023831263184547 	 accuracy:0.9326923076923077
+client 10 training ends!!
+Validation Score client_10:  0.8503333333333334
+ 
+client 11 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.2060297727584839 	 accuracy:0.9807692307692307
+client 11 training ends!!
+Validation Score client_11:  0.8531666666666666
+ 
+client 12 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.23041994869709015 	 accuracy:0.9519230769230769
+client 12 training ends!!
+Validation Score client_12:  0.85
+ 
+client 13 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.22819615714251995 	 accuracy:0.9423076923076923
+client 13 training ends!!
+Validation Score client_13:  0.8493333333333334
+ 
+client 14 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.24888655170798302 	 accuracy:0.9423076923076923
+client 14 training ends!!
+Validation Score client_14:  0.853
+ 
+client 15 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.21156671829521656 	 accuracy:0.9423076923076923
+client 15 training ends!!
+Validation Score client_15:  0.8511666666666666
+ 
+client 16 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.20548332668840885 	 accuracy:0.9615384615384616
+client 16 training ends!!
+Validation Score client_16:  0.854
+ 
+client 17 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.23896994814276695 	 accuracy:0.9134615384615384
+client 17 training ends!!
+Validation Score client_17:  0.8503333333333334
+ 
+client 18 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.2307441085577011 	 accuracy:0.9230769230769231
+client 18 training ends!!
+Validation Score client_18:  0.8531666666666666
+ 
+client 19 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.25191500037908554 	 accuracy:0.9519230769230769
+client 19 training ends!!
+Validation Score client_19:  0.8533333333333334
+ 
+client 20 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.24369549937546253 	 accuracy:0.9134615384615384
+client 20 training ends!!
+Validation Score client_20:  0.8488333333333333
+ 
+------------------------------------------------------------------
+[1.77323382 1.74703613 1.74217024 2.28498322 0.21763969 0.23383849
+ 0.23325901 0.24129165 0.20682859 0.24023831 0.20602977 0.23041995
+ 0.22819616 0.24888655 0.21156672 0.20548333 0.23896995 0.23074411
+ 0.251915   0.2436955 ]
+------------------------------------------------------------------
+Aggregation and validation!!!
+ 
+{'client_1': 1, 'client_2': 1, 'client_3': 1, 'client_4': 2, 'client_5': 0, 'client_6': 0, 'client_7': 0, 'client_8': 0, 'client_9': 0, 'client_10': 0, 'client_11': 0, 'client_12': 0, 'client_13': 0, 'client_14': 0, 'client_15': 0, 'client_16': 0, 'client_17': 0, 'client_18': 0, 'client_19': 0, 'client_20': 0}
+--------------------------------------------------------------------
+Server validation Score: 0.861
+Model Downloading...
+//////////////////////////////////////////
+C++ RECEIVES DATA
+epoch number is:8	Global accuracy is: 0.861
+//////////////////////////////////////////
+epochs:10 i:9
+client 1 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.759964905679226 	 accuracy:0.8461538461538461
+client 1 training ends!!
+Validation Score client_1:  0.8266666666666667
+ 
+client 2 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.7372814640402794 	 accuracy:0.9038461538461539
+client 2 training ends!!
+Validation Score client_2:  0.8108333333333333
+ 
+client 3 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.7620336264371872 	 accuracy:0.8461538461538461
+client 3 training ends!!
+Validation Score client_3:  0.8165
+ 
+client 4 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 2.2977808713912964 	 accuracy:0.1346153846153846
+client 4 training ends!!
+Validation Score client_4:  0.2786666666666667
+ 
+client 5 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.20098109357059002 	 accuracy:0.9711538461538461
+client 5 training ends!!
+Validation Score client_5:  0.8561666666666666
+ 
+client 6 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.21641789190471172 	 accuracy:0.9326923076923077
+client 6 training ends!!
+Validation Score client_6:  0.855
+ 
+client 7 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.21693948470056057 	 accuracy:0.9519230769230769
+client 7 training ends!!
+Validation Score client_7:  0.8568333333333333
+ 
+client 8 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.22425183653831482 	 accuracy:0.8942307692307693
+client 8 training ends!!
+Validation Score client_8:  0.8535
+ 
+client 9 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.19043824821710587 	 accuracy:0.9711538461538461
+client 9 training ends!!
+Validation Score client_9:  0.8526666666666667
+ 
+client 10 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.2204566989094019 	 accuracy:0.9326923076923077
+client 10 training ends!!
+Validation Score client_10:  0.8543333333333333
+ 
+client 11 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.18881754577159882 	 accuracy:0.9903846153846154
+client 11 training ends!!
+Validation Score client_11:  0.8558333333333333
+ 
+client 12 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.21413561701774597 	 accuracy:0.9519230769230769
+client 12 training ends!!
+Validation Score client_12:  0.8563333333333333
+ 
+client 13 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.21229604817926884 	 accuracy:0.9423076923076923
+client 13 training ends!!
+Validation Score client_13:  0.8526666666666667
+ 
+client 14 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.2308793943375349 	 accuracy:0.9423076923076923
+client 14 training ends!!
+Validation Score client_14:  0.8563333333333333
+ 
+client 15 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.19469057582318783 	 accuracy:0.9423076923076923
+client 15 training ends!!
+Validation Score client_15:  0.855
+ 
+client 16 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.1884392611682415 	 accuracy:0.9711538461538461
+client 16 training ends!!
+Validation Score client_16:  0.8573333333333333
+ 
+client 17 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.22152827121317387 	 accuracy:0.9326923076923077
+client 17 training ends!!
+Validation Score client_17:  0.8558333333333333
+ 
+client 18 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.2123346533626318 	 accuracy:0.9326923076923077
+client 18 training ends!!
+Validation Score client_18:  0.8581666666666666
+ 
+client 19 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.23554479144513607 	 accuracy:0.9519230769230769
+client 19 training ends!!
+Validation Score client_19:  0.8556666666666667
+ 
+client 20 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.22734873555600643 	 accuracy:0.9134615384615384
+client 20 training ends!!
+Validation Score client_20:  0.8521666666666666
+ 
+------------------------------------------------------------------
+[1.75996491 1.73728146 1.76203363 2.29778087 0.20098109 0.21641789
+ 0.21693948 0.22425184 0.19043825 0.2204567  0.18881755 0.21413562
+ 0.21229605 0.23087939 0.19469058 0.18843926 0.22152827 0.21233465
+ 0.23554479 0.22734874]
+------------------------------------------------------------------
+Aggregation and validation!!!
+ 
+{'client_1': 1, 'client_2': 1, 'client_3': 1, 'client_4': 2, 'client_5': 0, 'client_6': 0, 'client_7': 0, 'client_8': 0, 'client_9': 0, 'client_10': 0, 'client_11': 0, 'client_12': 0, 'client_13': 0, 'client_14': 0, 'client_15': 0, 'client_16': 0, 'client_17': 0, 'client_18': 0, 'client_19': 0, 'client_20': 0}
+--------------------------------------------------------------------
+Server validation Score: 0.864
+Model Downloading...
+//////////////////////////////////////////
+epochs:10 i:10
+C++ RECEIVES DATA
+epoch number is:9	Global accuracy is: 0.864
+//////////////////////////////////////////
+client 1 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.7568876668810844 	 accuracy:0.8557692307692307
+client 1 training ends!!
+Validation Score client_1:  0.8221666666666667
+ 
+client 2 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.72447070479393 	 accuracy:0.8846153846153846
+client 2 training ends!!
+Validation Score client_2:  0.8131666666666667
+ 
+client 3 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 1.7352073937654495 	 accuracy:0.875
+client 3 training ends!!
+Validation Score client_3:  0.8155
+ 
+client 4 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 2.3062911331653595 	 accuracy:0.10576923076923077
+client 4 training ends!!
+Validation Score client_4:  0.2996666666666667
+ 
+client 5 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.18561855889856815 	 accuracy:0.9711538461538461
+client 5 training ends!!
+Validation Score client_5:  0.8595
+ 
+client 6 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.2002157550305128 	 accuracy:0.9423076923076923
+client 6 training ends!!
+Validation Score client_6:  0.8575
+ 
+client 7 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.20168815180659294 	 accuracy:0.9615384615384616
+client 7 training ends!!
+Validation Score client_7:  0.861
+ 
+client 8 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.20817878283560276 	 accuracy:0.9230769230769231
+client 8 training ends!!
+Validation Score client_8:  0.8566666666666667
+ 
+client 9 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.174955815076828 	 accuracy:0.9711538461538461
+client 9 training ends!!
+Validation Score client_9:  0.8545
+ 
+client 10 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.20191430300474167 	 accuracy:0.9423076923076923
+client 10 training ends!!
+Validation Score client_10:  0.8578333333333333
+ 
+client 11 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.1727034356445074 	 accuracy:0.9903846153846154
+client 11 training ends!!
+Validation Score client_11:  0.8588333333333333
+ 
+client 12 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.1985448505729437 	 accuracy:0.9519230769230769
+client 12 training ends!!
+Validation Score client_12:  0.8596666666666667
+ 
+client 13 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.1976556032896042 	 accuracy:0.9423076923076923
+client 13 training ends!!
+Validation Score client_13:  0.856
+ 
+client 14 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.2142835259437561 	 accuracy:0.9519230769230769
+client 14 training ends!!
+Validation Score client_14:  0.8585
+ 
+client 15 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.17912330105900764 	 accuracy:0.9423076923076923
+client 15 training ends!!
+Validation Score client_15:  0.8583333333333333
+ 
+client 16 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.17304233089089394 	 accuracy:0.9711538461538461
+client 16 training ends!!
+Validation Score client_16:  0.8596666666666667
+ 
+client 17 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.20534972846508026 	 accuracy:0.9519230769230769
+client 17 training ends!!
+Validation Score client_17:  0.8563333333333333
+ 
+client 18 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.19505066610872746 	 accuracy:0.9615384615384616
+client 18 training ends!!
+Validation Score client_18:  0.8618333333333333
+ 
+client 19 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.22090938687324524 	 accuracy:0.9615384615384616
+client 19 training ends!!
+Validation Score client_19:  0.8575
+ 
+client 20 training starts!!
+* * * * * * * * * * * * * * * * * * * * 
+Last Epoch!!! 	 training loss: 0.21112448535859585 	 accuracy:0.9134615384615384
+client 20 training ends!!
+Validation Score client_20:  0.8551666666666666
+ 
+------------------------------------------------------------------
+[1.75688767 1.7244707  1.73520739 2.30629113 0.18561856 0.20021576
+ 0.20168815 0.20817878 0.17495582 0.2019143  0.17270344 0.19854485
+ 0.1976556  0.21428353 0.1791233  0.17304233 0.20534973 0.19505067
+ 0.22090939 0.21112449]
+------------------------------------------------------------------
+Aggregation and validation!!!
+ 
+{'client_1': 1, 'client_2': 1, 'client_3': 1, 'client_4': 2, 'client_5': 0, 'client_6': 0, 'client_7': 0, 'client_8': 0, 'client_9': 0, 'client_10': 0, 'client_11': 0, 'client_12': 0, 'client_13': 0, 'client_14': 0, 'client_15': 0, 'client_16': 0, 'client_17': 0, 'client_18': 0, 'client_19': 0, 'client_20': 0}
+--------------------------------------------------------------------
+Server validation Score: 0.8671666666666666
+Model Downloading...
+Last Epoch: epoch 10:	accuracy of global model is:0.867
+cleaning
